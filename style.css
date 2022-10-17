@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+html, body, * {
+   margin: 0;
+   padding: 0;
+}
+
+html {
+   font-family: 'Roboto', sans-serif;
+   font-weight: 700;
+   font-size: 1.1rem;
+   scroll-snap-type: y mandatory;
+}
+
+img {
+   max-width: 100%;
+   max-height: 100%;
+}
+
+h1.top-left {
+   text-transform: uppercase;
+}
+
+li {
+   list-style: none;
+}
+
+.bottom-left a {
+   text-decoration: underline;
+   color: black;
+}
+
+a {
+   color: black;
+   text-decoration: none;
+}
+
+a:hover {
+   text-decoration: underline;
+}
+
+.top-left {
+   position: fixed;
+   left: 20px;
+   top: 20px;
+}
+
+.top-right {
+   position: fixed;
+   right: 20px;
+   top: 20px;
+}
+
+.bottom-left {
+   width: 320px;
+   line-height: 1.4;
+   position: fixed;
+   left: 20px;
+   bottom: 20px;
+}
+
+.copyright, .studio {
+   font-size: 0.8rem;
+   font-weight: 400;
+   margin-top: 5px;
+   margin-bottom: 30px;
+}
+
+.bottom-right {
+   font-weight: 400;
+   position: fixed;
+   right: 20px;
+   bottom: 20px;
+}
+
+.bottom-right li {
+   margin-bottom: 5px;
+}
+
+.fullscreen-container {
+   height: 100vh;
+   width: 100vw;
+   display: flex;
+   scroll-snap-align: start;
+}
+
+#issue-6, #issue-5, #issue-4{
+   margin: auto auto;
+   max-width: 400px;
+   text-align: center;
+}
+
+.pink {
+   color: #E568AC;
+}
