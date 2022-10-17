@@ -12,6 +12,17 @@ html {
    scroll-snap-type: y mandatory;
 }
 
+/* hide scrollbar on firefox */
+html {
+   scrollbar-width: none;
+}
+
+/* hide scrollbar on chrome/edge */
+body::-webkit-scrollbar {
+   display: none;
+}
+  
+
 img {
    max-width: 100%;
    max-height: 100%;
